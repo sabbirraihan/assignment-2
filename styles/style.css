@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.container {
+    margin: 70px 90px;
+}
+
+.header {
+    display: flex;
+    height: 646px;
+    width: 1321px;
+    background-color: black;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.header-titel {
+    width: 531px;
+    Height: 424px;
+}
+
+.header img {
+    width: 581px;
+    height: 613px;
+}
+
+.btn {
+    background-color: red;
+    padding: 15px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+}
