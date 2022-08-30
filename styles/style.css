@@ -1,24 +1,29 @@
 body {
+
     background-color: white;
     font-family: 'Poppins', sans-serif;
 
 }
 
 h1 {
+
     font-size: 50px;
 }
 
 p {
+
     font-size: 20px;
 }
 
 /*----- header ------ */
 
 .container {
+
     margin: 70px 90px;
 }
 
 .header {
+
     display: flex;
     height: 646px;
     width: 1321px;
@@ -30,16 +35,19 @@ p {
 }
 
 .header-titel {
+
     width: 531px;
     Height: 424px;
 }
 
 .header img {
+
     width: 581px;
     height: 613px;
 }
 
 .btn {
+
     background-color: red;
     padding: 15px 25px;
     font-size: 20px;
@@ -49,6 +57,7 @@ p {
 /*------ button ------ */
 
 .blog-part {
+
     display: flex;
     width: 1321px;
     padding: 15px;
@@ -60,6 +69,7 @@ p {
 
 
 .link-btn {
+
     background-color: black;
     width: 312px;
     height: 312px;
@@ -73,6 +83,7 @@ p {
 }
 
 .link-btn a {
+
     text-decoration: none;
 
 }
@@ -88,24 +99,14 @@ p {
 
 }
 
-#blog-btn {
-
-    border: 1px solid lightgray;
+#match-btn {
     background-color: red;
-    border-radius: 5px;
-    color: black;
-    padding: 7px 70px;
-    font-size: 20px;
-
 }
 
-#btn-2 {
-    padding: 7px 50px;
-
-}
 
 /*------- blog ------ */
 .blogs {
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 24px;
@@ -114,6 +115,7 @@ p {
 }
 
 .blog {
+
     width: 312px;
     height: 362px;
     border: 1px solid lightgrey;
@@ -123,13 +125,37 @@ p {
 
 }
 
+.blog-2 {
+
+    width: 312px;
+    height: 250px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.summary {
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
 .transfer {
+
     padding: 7px 14px;
     border-radius: 5px;
 
 }
 
 .time {
+
     display: flex;
 
     align-items: center;
@@ -137,7 +163,11 @@ p {
 
 }
 
+
+/*------- footer ------------ */
+
 footer {
+
     color: aliceblue;
     background-color: black;
     text-align: center;
@@ -147,16 +177,18 @@ footer {
 }
 
 hr {
+
     width: 1320px;
 
 }
 
 .footer {
-    display: flex;
 
+    display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 24px;
+
 }
 
 .media-icon a {
@@ -165,4 +197,18 @@ hr {
     font-size: 30px;
     background-color: #228b224f;
     border-radius: 50%;
+
+}
+
+
+/* ----------responsive area -------- */
+
+@media screen and (max-width:688px) {
+    .header {
+        flex-direction: column;
+
+    }
+
+
+
 }
