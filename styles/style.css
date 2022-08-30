@@ -136,3 +136,33 @@ p {
     justify-content: space-between;
 
 }
+
+footer {
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    padding-top: 90px;
+    height: 444px;
+
+}
+
+hr {
+    width: 1320px;
+
+}
+
+.footer {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.media-icon a {
+    color: whitesmoke;
+    padding: 10px 10px;
+    font-size: 30px;
+    background-color: #228b224f;
+    border-radius: 50%;
+}
