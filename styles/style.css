@@ -1,6 +1,7 @@
 body {
     background-color: white;
     font-family: 'Poppins', sans-serif;
+
 }
 
 h1 {
@@ -10,6 +11,8 @@ h1 {
 p {
     font-size: 20px;
 }
+
+/*----- header ------ */
 
 .container {
     margin: 70px 90px;
@@ -41,4 +44,95 @@ p {
     padding: 15px 25px;
     font-size: 20px;
     border-radius: 5px;
+}
+
+/*------ button ------ */
+
+.blog-part {
+    display: flex;
+    width: 1321px;
+    padding: 15px;
+    border-radius: 10px;
+    column-gap: 15px;
+    margin: 58px 90px;
+
+}
+
+
+.link-btn {
+    background-color: black;
+    width: 312px;
+    height: 312px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 18px;
+    border-radius: 10px;
+
+}
+
+.link-btn a {
+    text-decoration: none;
+
+}
+
+.blog-btn {
+
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    padding: 7px 10px;
+    font-size: 20px;
+
+}
+
+#blog-btn {
+
+    border: 1px solid lightgray;
+    background-color: red;
+    border-radius: 5px;
+    color: black;
+    padding: 7px 70px;
+    font-size: 20px;
+
+}
+
+#btn-2 {
+    padding: 7px 50px;
+
+}
+
+/*------- blog ------ */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+
+}
+
+.blog {
+    width: 312px;
+    height: 362px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    padding-top: 0;
+
+}
+
+.transfer {
+    padding: 7px 14px;
+    border-radius: 5px;
+
+}
+
+.time {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
 }
